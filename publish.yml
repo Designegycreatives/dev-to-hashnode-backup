@@ -1,0 +1,39 @@
+name: publish
+on:
+ push:
+   branches: [main]
+   
+jobs:
+  publish:
+    runs-on: window 10
+    
+    steps: 
+    - uses: actions/checkout@v2
+    - name: Publish articles on dev.to
+      uses: sinedied/publish-devto@v2
+      id: publish_devto
+      with:
+      devto_key: ${{ secrets.ZoeXvjSnnHnEc9qkAUbN7TwS }}
+      github_token: ${{ secrets.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 }}
+      
+      files: 'posts/**/*.md'
+      
+      branch: main
+      
+      conventional_commits: true
+      
+      dry_run: $
+      
+      {{ github.event_name == 'pull_request' }}
+      
+        - uses: actions-ecosystem/action-create
+     -comment@v1
+         if: ${{ github.event_name == 'pull_request' }}
+         with:
+         github_token: ${{ secrets.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 }}
+         body: |
+           Changes result:
+           ```
+           $
+ {{ steps.publish_devto.outputs.result_summary }}
+          ```
