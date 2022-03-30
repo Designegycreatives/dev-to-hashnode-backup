@@ -16,7 +16,7 @@ jobs:
       devto_key: ${{ secrets.ZoeXvjSnnHnEc9qkAUbN7TwS }}
       github_token: ${{ secrets.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 }}
       
-      files: 'posts/**/*.md'
+      files: 'example.md'
       
       branch: main
       
