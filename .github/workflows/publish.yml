@@ -22,13 +22,12 @@ jobs:
       
       conventional_commits: true
       
-      dry_run: $
+      dry_run: ${{ github.event_name == 'pull_request' }}
       
-      {{ github.event_name == 'pull_request' }}
-      
-        - uses: actions-ecosystem/action-create
-     -comment@v1
-         if: ${{ github.event_name == 'pull_request' }}
+             - uses 
+             :actions-ecosystem/action-create-comment@v1
+    
+    if: ${{ github.event_name == 'pull_request' }}
          with:
          github_token: ${{ secrets.MYGITHUB_TOKEN }}
          body: |
