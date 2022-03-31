@@ -5,13 +5,13 @@ on:
    
 jobs:
   publish:
-    runs-on: window 10
+    runs-on: unbuntu latest
     
     steps: 
     - uses: actions/checkout@v2
     - name: Publish articles on dev.to
-      uses: Designegycreatives/dev-to-hashnode-backup@v2
-      id: dev-to-hashnode-backup
+      uses: sinedied/publish-devto@2
+      id:   publish_devto
       with:
       devto_key: ${{ secrets.DEVTO_TOKEN }}
       github_token: ${{ secrets.MYGITHUB_TOKEN }}
