@@ -47,11 +47,6 @@ This Web app will help you analyze the following;
 * Your top 10 best buying Customers and their locations
 """)
 
-#uploaded_files = st.file_uploader("Choose a CSV File", accept_multiple_files=True)
-#for uploaded_file in uploaded_files:
-#    bytes_data = uploaded_file.read()
-#    st.write("filename:", uploaded_file.name)
-#    st.write(bytes_data)
 sales_data = pd.read_csv('supermarket_sales.csv')
 st.write(sales_data.head())
 
