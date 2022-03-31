@@ -1,3 +1,18 @@
+---
+title: Bar Chat Webapp With Streamlit & Plotly
+published: true
+description: A simple test article
+tags: 'productivity, beginners, test'
+cover_image: ./assets/cat.jpg
+canonical_url: null
+id: 853728
+---
+
+Some random text with a [link](https://code.visualstudio.com).
+
+
+
+
 ## Bar Chat Webapp With Streamlit & Plotly
 
 #### I need to celebrate this little but purposeful achievement of mine lol.
