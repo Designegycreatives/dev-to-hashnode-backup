@@ -1,0 +1,39 @@
+name: publish
+on:
+ push:
+   branches: [main]
+   
+jobs:
+  publish:
+    runs-on: unbuntu latest
+    
+    steps: 
+    - uses: actions/checkout@v2
+    - name: Publish articles on dev.to
+      uses: sinedied/publish-devto@2
+      id:   publish_devto
+      with:
+      devto_key: ${{ secrets.DEVTO_TOKEN }}
+      github_token: ${{ secrets.MYGITHUB_TOKEN }}
+      
+      files: '*.md'
+      
+      branch: main
+      
+      conventional_commits: true
+      
+      dry_run: $
+      
+      {{ github.event_name == 'pull_request' }}
+      
+        - uses: actions-ecosystem/action-create
+     -comment@v1
+         if: ${{ github.event_name == 'pull_request' }}
+         with:
+         github_token: ${{ secrets.MYGITHUB_TOKEN }}
+         body: |
+           Changes result:
+           ```
+           $
+ {{ steps.publish_devto.outputs.result_summary }}
+          ```
