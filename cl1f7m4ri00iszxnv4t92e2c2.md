@@ -85,7 +85,7 @@ st.plotly_chart(fig, use_container_width=True)
 **Step 2:**
 #### I deployed my app using [Streamlit cloud](https://share.streamlit.io/)
 
-#### To deploy my app I uploaded my project file to Github [Read more..](https://github.com/Designegycreatives/streamlit_project.py)
+#### To deploy my app I uploaded my project file to GitHub [Read more..](https://github.com/Designegycreatives/streamlit_project.py)
 
 #### I created a Requirements.txt file. A Requirement file just contains all the libraries you used for your project 
 
