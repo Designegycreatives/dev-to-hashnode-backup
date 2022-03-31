@@ -4,7 +4,7 @@ published: false
 description: A simple test article
 tags: 'productivity, beginners, test'
 cover_image: ./assets/cat.jpg
-canonical_url: null
+canonical_url: 'https://designegycreatives.hashnode.dev/github-automations'
 id: 853728
 ---
 
