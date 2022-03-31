@@ -24,8 +24,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Publish articles on dev.to
-      uses: Designegycreatives/dev-to-hashnode-backup@v2
-      id: dev-to-hashnode-backup
+      uses: sinedied/publish-devto@v2
+      id:   publish_devto
       with:
         # Your dev.to personal API key to publish and update articles.
         # See https://docs.dev.to/api/#section/Authentication/api_key
