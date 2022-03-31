@@ -14,7 +14,7 @@ jobs:
       id: dev-to-hashnode-backup
       with:
       devto_key: ${{ secrets.DEVTO_TOKEN }}
-      github_token: ${{ secrets.GITHUB_TOKEN }}
+      github_token: ${{ secrets.MYGITHUB_TOKEN }}
       
       files: 'example.md'
       
@@ -30,7 +30,7 @@ jobs:
      -comment@v1
          if: ${{ github.event_name == 'pull_request' }}
          with:
-         github_token: ${{ secrets.GITHUB_TOKEN }}
+         github_token: ${{ secrets.MYGITHUB_TOKEN }}
          body: |
            Changes result:
            ```
