@@ -1,4 +1,4 @@
-## Bar Chat Webapp With Streamlit & Plotly
+title: Bar Chat Webapp With Streamlit & Plotly
 
 #### I need to celebrate this little but purposeful achievement of mine lol.
 
