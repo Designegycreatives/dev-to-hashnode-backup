@@ -16,7 +16,7 @@ jobs:
       devto_key: ${{ secrets.DEVTO_TOKEN }}
       github_token: ${{ secrets.MYGITHUB_TOKEN }}
       
-      files: 'example.md'
+      files: '*.md'
       
       branch: main
       
