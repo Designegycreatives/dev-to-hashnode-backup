@@ -52,7 +52,7 @@ This Web app will help you analyze the following;
 #    bytes_data = uploaded_file.read()
 #    st.write("filename:", uploaded_file.name)
 #    st.write(bytes_data)
-sales_data = pd.read_csv(r'C:\Users\user\Documents\Data Sets\CSV\supermarket_sales.csv')
+sales_data = pd.read_csv('supermarket_sales.csv')
 st.write(sales_data.head())
 
 select_branch=st.selectbox('What Branch would you like to visualize?',
