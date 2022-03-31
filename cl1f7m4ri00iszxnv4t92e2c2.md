@@ -66,7 +66,7 @@ select_product = st.selectbox('What product do you want to visualize?',
                               ['Food and beverages','Fashion accessories',
                                'Electronic accessories','Sports and travel',
                                'Home and lifestyle','Health and beauty'])
-sales_data = pd.read_csv(r'C:\Users\user\Documents\Data Sets\CSV\supermarket_sales.csv')
+sales_data = pd.read_csv('supermarket_sales.csv')
 sales_data = sales_data[sales_data['Branch'] == select_branch]
 sales_data = sales_data[sales_data['Product line'] == select_product]
 sales_data = sales_data.groupby(sales_data[select_xaxis])[select_yaxis].sum().head(10).reset_index()
