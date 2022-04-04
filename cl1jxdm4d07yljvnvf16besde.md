@@ -22,4 +22,6 @@
 
 #### [GitHub Page](https://github.com/Designegycreatives/web_app.py)
 
-![](https://www.buymeacoffee.com/AnuoluwapoDS)
+
+
+[![Buy Me A Coffee](https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js)](https://www.buymeacoffee.com/AnuoluwapoDS)
