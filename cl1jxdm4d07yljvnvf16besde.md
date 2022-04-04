@@ -4,7 +4,7 @@
 
 #### I really had a very interesting journey building this Webapp
 
-#### This is just the beginning for me, after many years of struggling with job search, passing interviews and passing exams. I finally found my purpose in data science and I am loving building the idea of building web apps.
+#### This is just the beginning for me, after many years of struggling with job search, passing interviews and passing exams. I finally found my purpose in data science and I am loving the idea of building web apps.
 
 #### I now feel so much Intune with my life purpose, I am a person who is heavy on maintaining her relationship with **God**. Yes **God Almighty** chose my career path 🙏🏽.
 
