@@ -2,7 +2,7 @@
 
 I am super excited i built something that can  be useful to me
 
-I joined several data challenge on [LinkedIn](https://www.linkedin.com/in/anuoluwapo-abiodun-balogun-64b977186/), were i have to clean datasets and build interactive dashboards.
+I joined several data challenge on [LinkedIn](https://www.linkedin.com/in/anuoluwapo-abiodun-balogun-64b977186/), where i have to clean datasets and build interactive dashboards.
 
 After reading about  **Data Wrangling** i discovered, i was cleaning my data the wrong way 😫
 
