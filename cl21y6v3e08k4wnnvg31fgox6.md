@@ -22,4 +22,6 @@ It looks like a simple project but it will go a long way with cleaning my datase
 
 I got how to make the Nav Bar from [Data Professor](https://github.com/dataprofessor/streamlit_navbar)
 
+[GitHub](https://github.com/Designegycreatives/datacleaning-app.py)
+
 [Here is my App](https://share.streamlit.io/designegycreatives/datacleaning-app.py/main/datacleaning.py)
