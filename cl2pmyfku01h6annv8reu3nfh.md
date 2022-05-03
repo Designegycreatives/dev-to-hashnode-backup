@@ -37,11 +37,11 @@ Example: We need to calculate the payment on the principal for months 1 and 2 on
 
 **Things to remember about the PMT Function**
 
-1. #NUM! error - Occurs when:
+- #NUM! error - Occurs when:
 
  given rate value is less than or equal to -1
  given nper value is equal to 0
 
-2. #VALUE! error - Occurs when any of the arguments provided are non-numeric.
+- #VALUE! error - Occurs when any of the arguments provided are non-numeric.
 
-3. An error can arise if we forget to convert the interest rate or the number of periods to months or quarters when calculating monthly or quarterly payments.
+- An error can arise if we forget to convert the interest rate or the number of periods to months or quarters when calculating monthly or quarterly payments.
