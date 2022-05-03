@@ -39,8 +39,8 @@ Example: We need to calculate the payment on the principal for months 1 and 2 on
 
 1. #NUM! error - Occurs when:
 
-The given rate value is less than or equal to -1
-The given nper value is equal to 0
+ given rate value is less than or equal to -1
+ given nper value is equal to 0
 
 2. #VALUE! error - Occurs when any of the arguments provided are non-numeric.
 
