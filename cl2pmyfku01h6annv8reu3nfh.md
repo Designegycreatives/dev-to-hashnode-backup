@@ -1,4 +1,4 @@
-## Ppmt Function
+## PPMT Function
 
 **PPMT FUNCTION** Helps you get principal for given period.
 
