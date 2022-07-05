@@ -18,7 +18,7 @@
 
 #### My desire is to keep building simple apps for people with zero experience with data science, analysis and engineering tools.
 
-#### [Link To The WebApp](https://share.streamlit.io/designegycreatives/web_app.py/main/bi.py)
+#### [Link To The WebApp](https://designegycreatives-web-app-py-apphomepage-ibkpdz.streamlitapp.com/)
 
 #### [GitHub Page](https://github.com/Designegycreatives/web_app.py)
 
