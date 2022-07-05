@@ -67,6 +67,6 @@ here are links to do so
 **[NODE JS](https://docs.deta.sh/docs/base/node_tutorial/)**,
 **[PYTHON](https://docs.deta.sh/docs/base/py_tutorial/)**
 
-Here is the [repo](https://github.com/Designegycreatives/pdh-crm.py) to this project
+Here is the [repo](https://github.com/Designegycreatives/crm-form.py) to this project
 
 You can deploy your app to [Streamlit Cloud](https://share.streamlit.io)
