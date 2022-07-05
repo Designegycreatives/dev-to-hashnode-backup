@@ -8,7 +8,7 @@
 
 #### I now feel so much Intune with my life purpose, I am a person who is heavy on maintaining her relationship with **God**. Yes **God Almighty** chose my career path 🙏🏽.
 
-#### I own Designegy Creatives a company where I really assist people and businesses with technology solutions. I recently started [Pink Data Hub](https://bit.ly/pinkdatahub) with **God ** I am loving it and will do forever 🤍
+#### I own Designegy Creatives a company where I really assist people and businesses with technology solutions. I recently started [Pink Data Hub](https://spangle-basin-670.notion.site/Welcome-To-Pink-Data-Hub-3488d186b3654f369603b13e967e765e) with **God ** I am loving it and will do forever 🤍
 
 #### I have wept severally 😥 for all the time i failed at being employed, passing exams and interviews but here i am today letting the world know i found love in being a data scientist 🧡.
 
